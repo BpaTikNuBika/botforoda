@@ -455,6 +455,5 @@ async def help(ctx):
     embed.add_field(name="{}volume".format(PREFIX), value="Тестовая функция изменнения громкости(v или vol)", inline=False)
     await ctx.send(embed=embed)
 
-client.run('NzAwNjE4NDM3ODQzNDg0Njg0.XqgX2w.5vf8BT1N454zu-UIKijAs2kh0P4')
 token = os.environ.get('BOT_TOKEN')
 client.run(str(token))
